@@ -1,13 +1,6 @@
 # Broadcast Server
-
-This project is a broadcast server that allows you to send messages to multiple clients simultaneously. It is designed to be efficient and scalable, making it suitable for a variety of applications.
-
-## Features
-
-- Real-time message broadcasting
-- Support for multiple clients
-- Scalable architecture
-- Easy to set up and use
+https://roadmap.sh/projects/broadcast-server
+This project is a broadcast server that allows you to send messages to multiple clients simultaneously. 
 
 ## Getting Started
 
