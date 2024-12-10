@@ -11,6 +11,12 @@ io.on('connection', (socket)=>{
     clients.push(socket);
     console.log('New user connected');
 
+    socket.on('message', (message: string)=>{
+        console.log('Received message: ', message);
+
+        socket.broadcast.emit('message', message);
+    })
+
     socket.on('disconnect', ()=>{
         const index = clients.indexOf(socket);
         if(index !== -1) clients.splice(index,1);
